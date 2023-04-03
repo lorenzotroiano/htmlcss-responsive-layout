@@ -188,21 +188,58 @@ a{
     color: white;
     border-radius: 30px;
     padding: 20px;
+
+    margin-bottom: 20px;
+
+    min-height: 250px;
 }
 
 
 .card > img {
     width: 200px;
     height: 200px;
-
+    object-fit: cover;
     border-radius: 50%;
-    
-    
-    
-   
 }
 
 
+@media screen and (max-width: 480px) {
+    .flex-card {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+/* section benefits */
+
+.benefits > h3 {
+    text-align: center;
+}
+
+.flex-benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+    
+    
+
+   
+    
+
+}
+
+.col-ben {
+    width: calc(100% / 3) -10px;
+    margin-bottom: 20px;
+    
+    background-color: #ffffff;
+    
+}
 
 
 /* debug */
