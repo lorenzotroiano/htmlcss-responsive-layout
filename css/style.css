@@ -103,6 +103,13 @@ a{
     color: #0084fd;
 }
 
+@media screen and (max-width: 780px ) {
+    .flex-phone {
+        display: block;
+    }
+}
+
+
 @media screen and (max-width: 480px) {
     .row {
         display: block;
@@ -122,9 +129,7 @@ a{
         margin-bottom: 20px;
     }
 
-    .flex-phone {
-        display: block;
-    }
+   
 }
 
 
