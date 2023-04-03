@@ -5,21 +5,127 @@
 }
 
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
 
 
 
 
+/* header */
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    background-color: #0084fd;
+    /* gap: 10px;
+    list-style: none; */
+}
+
+nav.flex-nav {
+    gap: 70px;
+    list-style: none;
+    color: #ffffff;
+
+}
+
+.mobile {
+    display: none;
+    /* color: #ffffff; */
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* responsive tablet e mobile */
+
+@media screen and (max-width: 780px ) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+
+/* stile contenuto principale */
 
 
 
+.row {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.col {
+    border-radius: 20px;
+    background-color: #b5ddff;
+
+    margin-bottom: 20px;
+}
+
+.flex-phone {
+    display: flex;
+}
+
+.flex-phone > img {
+    width: 270px;
+}
 
 
 
+.app {
+    width: 65%;
+    padding: 20px 20px 0 20px;
+}
 
 
+.code {
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+}
 
+.code > i {
+    font-size: 60px;
+    color: #0084fd;
+}
 
+@media screen and (max-width: 480px) {
+    .row {
+        display: block;
+       
+    }
 
+    /* .app {
+        width: 100%;
+    }
+
+    .code {
+        width: 100%;
+    } */
+
+    .col {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .flex-phone {
+        display: block;
+    }
+}
 
 
 
@@ -35,7 +141,7 @@
 /* debug */
 header {
     min-height: 100px;
-    background-color: greenyellow;
+    background-color: #0084fd;
 }
 
 main {
@@ -52,7 +158,21 @@ footer {
 .container {
     min-height: 100px;
     background-color: brown;
-    width: 80%;
-    margin: 0 auto;
     margin-bottom: 30px;
+}
+
+.row {
+    /* min-height: 50px;
+    background-color: red;
+    border: 2px solid black;
+
+    min-height: 300px; */
+}
+
+.col {
+    /* min-height: 50px;
+    background-color: rgb(44, 219, 193);
+    border: 2px solid black;
+
+    min-height: 100px; */
 }
