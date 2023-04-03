@@ -182,6 +182,12 @@ a{
 
 .flex-card {
     display: flex;
+    align-items: center;
+
+    background-color: #9792e4;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
 }
 
 
