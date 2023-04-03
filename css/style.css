@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+header {
+    min-height: 100px;
+    background-color: greenyellow;
+}
+
+main {
+    min-height: 400px;
+    background-color: violet;
+}
+
+footer {
+    min-height: 150px;
+    background-color: black;
+}
+
+
+.container {
+    min-height: 100px;
+    background-color: brown;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
