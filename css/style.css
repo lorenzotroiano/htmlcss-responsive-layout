@@ -135,7 +135,40 @@ a{
 }
 
 
+/* stile planning section */
 
+.flex-planning {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9792e4;
+
+    width: calc(100% / 2);
+}
+
+#strategic > img, #white-plan > img {
+    width: 350px;
+}
+
+#strategic {
+    background-color: #9792e4;
+    
+}
+
+#white-plan {
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+
+    
+}
+
+
+@media screen and (max-width: 780px ) {
+    .flex-planning {
+        display: block;
+        min-width: 100%;
+    }
+}
 
 
 
