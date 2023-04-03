@@ -173,7 +173,28 @@ a{
 
 
 
+/* stile section testimonials */
 
+#testimonial-center {
+    text-align: center;
+}
+
+
+.flex-card {
+    display: flex;
+}
+
+
+.card > img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    
+    
+    
+   
+}
 
 
 
