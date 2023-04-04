@@ -99,31 +99,33 @@ a{
 .row {
     display: flex;
     justify-content: space-between;
-
-    margin-bottom: 20px;
 }
 
 .col {
     border-radius: 20px;
     background-color: #b5ddff;
-
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .flex-phone {
     display: flex;
+    /* align-items: end; */
+     
 }
 
-.flex-phone > img {
-    width: 250px;
+#phone > img {
+   max-width: 100%; 
+
 }
 
-#space > button {
+#phone {
+    margin-top: 35px;
+}
+
+
+#space > p {
     margin-top: 25px;
-}
-
-.flex-phone > div {
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 
 .app {
@@ -194,7 +196,7 @@ a{
 
 
 #strategic > img, #white-plan > img {
-    width: 350px;
+    max-width: 100%;
 }
 
 #strategic {
