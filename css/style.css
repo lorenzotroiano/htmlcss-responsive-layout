@@ -10,7 +10,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;   
 }
 
@@ -156,8 +156,8 @@ li > a{
     display: flex;
     justify-content: space-between;
     background-color: #9792e4;
-    width: calc(100% / 2);
-    margin: 0 auto;
+    /* width: calc(100% / 2);
+    margin: 0 auto; */
 }
 
 #strategic > img, #white-plan > img {
