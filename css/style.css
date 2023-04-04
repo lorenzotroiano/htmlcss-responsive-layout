@@ -93,6 +93,7 @@ li > a{
 
 .flex-phone {
     display: flex;
+    height: 100%;
 }
 
 .fa-apple {
@@ -101,11 +102,18 @@ li > a{
 }
 
 #phone > img {
-   max-width: 100%; 
+   max-width: 250px; 
+   display: block;
 }
 
 #phone {
-    margin-top: 35px;
+    margin-left: 35px;
+    align-self: flex-end;
+    
+}
+
+#space {
+    width: 50%;
 }
 
 #space > p {
@@ -116,6 +124,7 @@ li > a{
 .app {
     width: 65%;
     padding: 20px 20px 0 20px;
+    min-height: 300px;
 }
 
 .code {
